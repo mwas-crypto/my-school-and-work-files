@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Web Page</title>
+
+    <style>
+        #main-container {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: stretch;
+            gap: 20px;
+            width: 90%;
+            max-width: 1000px;
+            margin: 40px auto;
+            padding: 20px;
+            background-color: #ffffff;
+            border: 4px solid #333333;
+            border-radius: 12px;
+        }
+
+        .generalstyle {
+            flex: 1;
+            min-height: 200px;
+            padding: 20px;
+            color: #BA9C9C;
+            background-color: #f2f2f2;
+            border: 2px solid #cccccc;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="main-container">
+        <div class="generalstyle">
+            <p>This is the main Div</p>
+        </div>
+
+        <div class="generalstyle">
+            <p>This is the first inner div</p>
+        </div>
+
+        <div class="generalstyle">
+            <p>This is the second inner div</p>
+        </div>
+
+        <div class="generalstyle">
+            <p>This is the third inner div</p>
+        </div>
+    </div>
+</body>
+</html>
